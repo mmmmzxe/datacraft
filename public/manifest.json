@@ -1,0 +1,17 @@
+{
+  "name": "DataCraft Academy",
+  "short_name": "DataCraft",
+  "description": "Hands-on data engineering training — from Beginner to Advanced. Real-world projects, live mentorship, and industry tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#11113F",
+  "theme_color": "#5A4DE5",
+  "icons": [
+    {
+      "src": "/images/logo-light.png",
+      "sizes": "1000x1000",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

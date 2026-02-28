@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+/* DATA CRAFT Brand Colors */
+:root {
+  --dc-navy: #11113F;
+  --dc-cyan: #85ECFC;
+  --dc-violet: #5A4DE5;
+  --dc-white: #FFFFFF;
+  --dc-gradient: linear-gradient(135deg, #85ECFC 0%, #5A4DE5 100%);
+}
+
+/* Custom scrollbar for course carousels */
+::-webkit-scrollbar {
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(17, 17, 63, 0.2);
+  border-radius: 3px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--dc-navy);
+}
+
+/* Brand gradient text util */
+.text-gradient {
+  background: var(--dc-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Brand gradient background */
+.bg-brand-gradient {
+  background: var(--dc-gradient);
+}
+
+/* Glow effect for hero */
+.glow-cyan {
+  box-shadow: 0 0 60px rgba(133, 236, 252, 0.3), 0 0 120px rgba(90, 77, 229, 0.15);
+}
