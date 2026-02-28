@@ -9,7 +9,7 @@ const instructors: {
   id: number;
   name: string;
   role: string;
-  bio: string;
+  bio: string | string[];
   specialties: string[];
   image: string | StaticImageData;
   linkedin: string;
