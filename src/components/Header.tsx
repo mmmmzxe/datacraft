@@ -85,7 +85,7 @@ export default function Header() {
               href="/contact"
               className="hidden md:flex bg-linear-to-r from-[#85ECFC] to-[#5A4DE5] hover:from-[#6de0f7] hover:to-[#4a3dd4] text-[#11113F] font-black uppercase tracking-widest text-[11px] px-6 py-2.5 rounded-full transition-all shadow-lg shadow-[#5A4DE5]/20 active:scale-95"
             >
-              Enroll Now
+              Contact Us
             </Link>
 
             {/* Mobile Menu Button */}

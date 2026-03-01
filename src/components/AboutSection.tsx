@@ -69,14 +69,7 @@ export default function AboutSection() {
             </div>
 
             {/* CTA */}
-            <div className="flex flex-wrap gap-4">
-              <button className="bg-linear-to-r from-[#85ECFC] to-[#5A4DE5] text-[#11113F] font-bold px-8 py-3 rounded-xl shadow-lg shadow-[#5A4DE5]/20 hover:shadow-[#5A4DE5]/40 transition-all text-sm">
-                Start Learning Today
-              </button>
-              <button className="border-2 border-[#11113F]/10 text-[#11113F] font-semibold px-8 py-3 rounded-xl hover:border-[#5A4DE5]/30 hover:bg-[#5A4DE5]/5 transition-all text-sm">
-                View Curriculum
-              </button>
-            </div>
+           
           </div>
 
           {/* Right - Visual */}

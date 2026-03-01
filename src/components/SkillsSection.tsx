@@ -86,14 +86,7 @@ export default function SkillsSection() {
                 </div>
 
                 <div className="px-4 pb-6 flex flex-col grow">
-                  <div className="flex items-center gap-1 mb-2">
-                    {[1, 2, 3, 4, 5].map((s) => (
-                      <svg key={s} className={`w-3 h-3 ${s <= Math.floor(course.rating) ? 'text-yellow-400' : 'text-slate-200'}`} fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                    <span className="text-[10px] font-bold text-slate-400 ml-1">{course.ratingCount}</span>
-                  </div>
+                 
                   
                   <h3 className="font-extrabold text-[#11113F] text-lg mb-2 group-hover:text-[#5A4DE5] transition-colors leading-tight min-h-[56px] flex items-center">
                     {course.title}
@@ -122,13 +115,11 @@ export default function SkillsSection() {
                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                </svg>
             </div>
-            <h3 className="text-2xl font-bold text-[#11113F] mb-4">Level {activeLevel === 'intermediate' ? '2' : '3'} is Under Construction</h3>
+            <h3 className="text-2xl font-bold text-[#11113F] mb-4">{activeLevel === 'intermediate' ? 'Intermediate' : 'Advanced'} Level is Under Construction</h3>
             <p className="text-slate-500 max-w-md mx-auto">
               Our advanced curriculum is being finalized by industry experts. Join our waiting list to be notified as soon as it drops.
             </p>
-            <button className="mt-8 px-8 py-3 bg-[#11113F] text-white font-bold rounded-xl hover:bg-[#5A4DE5] transition-all">
-              Join Waitlist
-            </button>
+           
           </div>
         )}
 

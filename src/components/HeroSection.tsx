@@ -97,7 +97,7 @@ export default function HeroSection() {
                          </div>
                       </div>
                       <div>
-                         <p className="text-white text-sm font-black uppercase tracking-widest">Master Big Data</p>
+                         <p className="text-white text-sm font-black uppercase tracking-widest">Master Data Engineering</p>
                          <p className="text-white/40 text-[10px] font-bold">Industry Standard Curriculum</p>
                       </div>
                    </div>
