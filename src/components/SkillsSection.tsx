@@ -29,24 +29,26 @@ export default function SkillsSection() {
         </div>
 
         {/* Level Tabs */}
-        <div className="flex flex-center justify-center gap-4 mb-16">
-          <div className="inline-flex p-1.5 bg-[#F7F8FA] rounded-2xl border border-[#E5E7EB] shadow-sm">
+        <div className="flex justify-center mb-16 px-4">
+          <div className="flex flex-col sm:inline-flex sm:flex-row p-1.5 bg-[#F7F8FA] rounded-2xl border border-[#E5E7EB] shadow-sm w-full max-w-xl sm:w-auto">
             {courseLevels.map((level) => (
               <button
                 key={level.id}
                 onClick={() => setActiveLevel(level.id)}
-                className={`relative px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 ${
+                className={`relative px-4 sm:px-8 py-3 rounded-xl text-xs sm:text-sm font-bold transition-all duration-300 whitespace-nowrap ${
                   activeLevel === level.id
                     ? 'bg-white text-[#11113F] shadow-md ring-1 ring-black/5'
                     : 'text-[#11113F]/40 hover:text-[#11113F]/70'
                 }`}
               >
-                {level.name}
-                {level.status === 'coming-soon' && (
-                  <span className="ml-2 py-0.5 px-2 bg-[#5A4DE5]/10 text-[#5A4DE5] text-[10px] uppercase tracking-wider rounded-md">
-                    Soon
-                  </span>
-                )}
+                <span className="flex items-center justify-center sm:justify-start">
+                  {level.name}
+                  {level.status === 'coming-soon' && (
+                    <span className="ml-2 py-0.5 px-2 bg-[#5A4DE5]/10 text-[#5A4DE5] text-[9px] sm:text-[10px] uppercase tracking-wider rounded-md">
+                      Soon
+                    </span>
+                  )}
+                </span>
               </button>
             ))}
           </div>
@@ -54,7 +56,7 @@ export default function SkillsSection() {
 
         {/* Content Area */}
         {activeLevel === 'beginner' ? (
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-4">
             {filteredCourses.map((course) => (
               <Link
                 key={course.slug}
