@@ -67,12 +67,12 @@ export default function AboutSection() {
                 </div>
               </div>
             </div>
-        
+
           </div>
 
           {/* Right - Visual */}
           <div className="flex flex-col items-center gap-8">
-          
+
             <div className="relative">
               <div className="absolute inset-0 bg-linear-to-br from-[#85ECFC]/20 to-[#5A4DE5]/20 rounded-3xl blur-2xl scale-110" />
               <div className="relative bg-[#11113F] rounded-3xl p-10 shadow-2xl">
@@ -84,37 +84,37 @@ export default function AboutSection() {
                   className="w-56 h-56"
                 />
               </div>
-              
+
             </div>
-{/* Company Info */}
-<div className="mb-10 grid grid-cols-1 sm:grid-cols-2 justify-center items-center gap-3">
-  <div className="bg-[#F7F8FA] rounded-xl p-5 border border-[#11113F]/5">
-    <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-1">
-      Industry
-    </h4>
-    <p className="font-semibold text-sm text-[#11113F]">
-      Professional Training & Coaching
-    </p>
-  </div>
 
-  
+            <div className="mb-10 grid grid-cols-1 sm:grid-cols-2 justify-center items-center gap-3">
+              <div className="bg-[#F7F8FA] rounded-xl p-5 border border-[#11113F]/5">
+                <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-1">
+                  Industry
+                </h4>
+                <p className="font-semibold text-sm text-[#11113F]">
+                  Professional Training & Coaching
+                </p>
+              </div>
 
-  
 
-  <div className="bg-[#F7F8FA] rounded-xl p-5 border border-[#11113F]/5">
-    <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-1">
-      Learning Track
-    </h4>
-    <p className="font-semibold text-sm text-[#11113F]">
-      Beginner · Intermediate · Advanced
-    </p>
-  </div>
-</div>
-      
 
-        
-              
-      </div>
+
+
+              <div className="bg-[#F7F8FA] rounded-xl p-5 border border-[#11113F]/5">
+                <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-1">
+                  Learning Track
+                </h4>
+                <p className="font-semibold text-sm text-[#11113F]">
+                  Beginner · Intermediate · Advanced
+                </p>
+              </div>
+            </div>
+
+
+
+
+          </div>
         </div>
 
         {/* Bottom tagline */}
