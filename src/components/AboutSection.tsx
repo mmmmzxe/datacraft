@@ -67,15 +67,12 @@ export default function AboutSection() {
                 </div>
               </div>
             </div>
-
-
         
-           
           </div>
 
           {/* Right - Visual */}
           <div className="flex flex-col items-center gap-8">
-            {/* Logo display */}
+          
             <div className="relative">
               <div className="absolute inset-0 bg-linear-to-br from-[#85ECFC]/20 to-[#5A4DE5]/20 rounded-3xl blur-2xl scale-110" />
               <div className="relative bg-[#11113F] rounded-3xl p-10 shadow-2xl">
