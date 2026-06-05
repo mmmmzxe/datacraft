@@ -39,11 +39,10 @@ const programs = [
       "Advance your skills with cloud platforms, Apache Spark, streaming data, and production-grade pipeline design. Enrollment is open for the Intermediate track — join now to level up your data engineering practice.",
     modules: [
       "Advanced SQL Tuning",
-      "MongoDB",
       "Data Build Tool (dbt)",
       "Docker & Containerization",
       "Airflow (Data Orchestration)",
-      "CI/CD for Data Platforms (GitHub Actions)",
+      "CI/CD for Data Platforms",
       "Infrastructure as Code (Terraform)",
       "Capstone Project",
     ],
