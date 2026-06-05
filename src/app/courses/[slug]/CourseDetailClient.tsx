@@ -632,7 +632,7 @@ export default function CourseDetailClient({
                           name="firstName"
                           value={formData.firstName}
                           onChange={handleInputChange}
-                          placeholder="Maryem"
+                          placeholder="First Name"
                           className="w-full px-4 py-3 bg-gray-50 border border-gray-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#5A4DE5] focus:bg-white transition-all text-sm font-medium"
                           required
                         />
@@ -646,7 +646,7 @@ export default function CourseDetailClient({
                           name="lastName"
                           value={formData.lastName}
                           onChange={handleInputChange}
-                          placeholder="Mostafa"
+                          placeholder="Last Name"
                           className="w-full px-4 py-3 bg-gray-50 border border-gray-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#5A4DE5] focus:bg-white transition-all text-sm font-medium"
                           required
                         />
