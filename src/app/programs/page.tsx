@@ -30,7 +30,8 @@ const programs = [
     level: "Intermediate",
     status: "Now Running",
     color: "from-[#5A4DE5] to-[#3b2281]",
-    duration: "4 months",
+    duration: "3–3.5 months",
+    price: "7500",
     description:
       "Advance your skills with cloud platforms, Apache Spark, streaming data, and production-grade pipeline design. Enrollment is open for the Intermediate track — join now to level up your data engineering practice.",
     modules: [
@@ -224,8 +225,7 @@ export default function ProgramsPage() {
                     </span>
                   </div>
                   <p className="text-white/70 text-sm">{program.duration}</p>
-                  {/* Show price for Beginner Level */}
-                  {program.level === "Beginner" && (
+                  {program.price && (
                     <p className="text-white/80 text-xs mt-1">
                       Price:{" "}
                       <span className="font-bold">{program.price} EGP</span>

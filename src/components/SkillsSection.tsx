@@ -10,57 +10,6 @@ export default function SkillsSection() {
 
   const filteredCourses = courses.filter((course) => course.level.toLowerCase() === activeLevel);
 
-  const intermediateLearningOutcomes = [
-    {
-      id: 1,
-      title: 'Advanced SQL Tuning',
-      outcome:
-        'Students will master the internal mechanics of database engines to optimize query performance at scale, transitioning from functional queries to engineering high-performance analytical workloads that minimize resource consumption.',
-      keySkill:
-        'Analyzing execution plans and indexing strategies to eliminate performance bottlenecks and reduce cloud data warehouse costs in production environments.',
-    },
-    {
-      id: 2,
-      title: 'Analytics Engineering (dbt)',
-      outcome:
-        'Students will adopt the ELT paradigm using dbt to transform raw data into production-ready assets while applying software engineering rigor — including version control and testing.',
-      keySkill:
-        'Building modular, documented data models using Jinja and macros to maintain a reliable single source of truth across the Medallion architecture.',
-    },
-    {
-      id: 3,
-      title: 'Docker for Data Engineers',
-      outcome:
-        'Students will achieve full environment reproducibility by containerizing data applications and deploying isolated, portable data stacks that run consistently across any infrastructure.',
-      keySkill:
-        'Orchestrating multi-container environments using Docker Compose to manage dependencies for Spark, databases, and custom Python applications.',
-    },
-    {
-      id: 4,
-      title: 'Infrastructure as Code (Terraform)',
-      outcome:
-        'Students will develop the capability to provision complex cloud data platforms programmatically by defining data lakes, warehouses, and IAM as version-controlled code.',
-      keySkill:
-        'Managing cloud state and modular infrastructure to deploy auditable, scalable, and repeatable data architectures in minutes.',
-    },
-    {
-      id: 5,
-      title: 'CI/CD for Data Platforms',
-      outcome:
-        'Students will bridge the gap between Data Engineering and DevOps by automating the deployment lifecycle and ensuring every code change is automatically tested and validated before reaching production.',
-      keySkill:
-        'Implementing GitHub Actions and automated workflows to trigger data quality checks and seamless deployments with minimal downtime.',
-    },
-    {
-      id: 6,
-      title: 'Data Orchestration (Airflow)',
-      outcome:
-        'Students will be able to architect complex, resilient data pipelines using Apache Airflow, mastering programmatic scheduling and sophisticated failure handling.',
-      keySkill:
-        'Designing advanced DAGs and custom operators to tie together Spark jobs, dbt models, and cloud services into unified workflows.',
-    },
-  ];
-
   return (
     <section className="px-8 py-24 bg-white relative overflow-hidden" id="courses">
       {/* Background decoration */}
