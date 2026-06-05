@@ -28,19 +28,64 @@ const programs = [
   },
   {
     level: "Intermediate",
-    status: "Coming Soon",
+    status: "Now Running",
     color: "from-[#5A4DE5] to-[#3b2281]",
     duration: "4 months",
     description:
-      "Advance your skills with cloud platforms, Apache Spark, streaming data, and production-grade pipeline design.",
+      "Advance your skills with cloud platforms, Apache Spark, streaming data, and production-grade pipeline design. Enrollment is open for the Intermediate track — join now to level up your data engineering practice.",
     modules: [
-      "SQL Tuning",
-      "Mongo DB",
-      "Data Build Tool (DBT)",
-      "Docker",
-      "Airflow",
-      "CI/CD (GitHub Actions)",
+      "Advanced SQL Tuning",
+      "MongoDB",
+      "Data Build Tool (dbt)",
+      "Docker & Containerization",
+      "Airflow (Data Orchestration)",
+      "CI/CD for Data Platforms (GitHub Actions)",
+      "Infrastructure as Code (Terraform)",
       "Capstone Project",
+    ],
+    learningOutcomes: [
+      {
+        title: "Advanced SQL Tuning",
+        outcome:
+          "Students will master the internal mechanics of database engines to optimize query performance at scale, moving from functional queries to engineering high-performance analytical workloads.",
+        keySkill:
+          "Analyzing execution plans and indexing strategies to eliminate performance bottlenecks and reduce cloud data warehouse costs in production.",
+      },
+      {
+        title: "Analytics Engineering (dbt)",
+        outcome:
+          "Students will adopt the ELT paradigm using dbt to transform raw data into production-ready assets while applying software engineering rigor (version control, testing, modular design).",
+        keySkill:
+          "Building modular, documented data models using Jinja and macros to maintain a reliable single source of truth across the Medallion architecture.",
+      },
+      {
+        title: "Docker for Data Engineers",
+        outcome:
+          "Students will achieve environment reproducibility by containerizing data applications and deploying portable, isolated stacks that run consistently across infrastructure.",
+        keySkill:
+          "Orchestrating multi-container environments with Docker Compose for Spark, databases, and custom Python services.",
+      },
+      {
+        title: "Infrastructure as Code (Terraform)",
+        outcome:
+          "Students will provision cloud data platforms programmatically, eliminating manual configuration via version-controlled infrastructure definitions.",
+        keySkill:
+          "Managing cloud state and modular infrastructure to deploy auditable, scalable data architectures quickly.",
+      },
+      {
+        title: "CI/CD for Data Platforms",
+        outcome:
+          "Students will automate the deployment lifecycle so every code change is tested and validated before reaching production.",
+        keySkill:
+          "Implementing GitHub Actions and automated workflows to trigger data quality checks and seamless deployments with minimal downtime.",
+      },
+      {
+        title: "Data Orchestration (Airflow)",
+        outcome:
+          "Students will architect resilient data pipelines using Apache Airflow, mastering programmatic scheduling and advanced failure handling.",
+        keySkill:
+          "Designing advanced DAGs and custom operators to integrate Spark jobs, dbt models, and cloud services into unified workflows.",
+      },
     ],
   },
   {

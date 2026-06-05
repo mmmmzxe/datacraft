@@ -15,7 +15,7 @@ export interface Course {
 
 export const courseLevels = [
   { id: 'beginner', name: 'Beginner', status: 'available' },
-  { id: 'intermediate', name: 'Intermediate', status: 'coming-soon' },
+  { id: 'intermediate', name: 'Intermediate', status: 'available' },
   { id: 'advanced', name: 'Advanced', status: 'coming-soon' },
 ];
 
@@ -154,5 +154,104 @@ export const courses: Course[] = [
     professionalStatement: "Provision and scale data infrastructure on a leading cloud provider.",
     rating: 4.7,
     ratingCount: "1,200"
+  }
+  ,
+  {
+    slug: "advanced-sql-tuning",
+    title: "Advanced SQL Tuning",
+    level: "Intermediate",
+    category: "Data Engineering",
+    duration: "3 weeks",
+    image: "/assets/sql-course.png",
+    description: "Deep-dive into database internals, execution plans, and indexing strategies to optimize analytical queries at scale.",
+    outcome: "Students will master the internal mechanics of database engines to optimize query performance at scale, transitioning to engineering high-performance analytical workloads.",
+    keySkill: "Analyzing execution plans and designing indexing strategies to remove performance bottlenecks and reduce cloud data warehouse costs.",
+    professionalStatement: "Engineer high-performance SQL for production analytical workloads.",
+    rating: 4.8,
+    ratingCount: "320"
+  },
+  {
+    slug: "analytics-engineering-dbt",
+    title: "Analytics Engineering (dbt)",
+    level: "Intermediate",
+    category: "Analytics",
+    duration: "3 weeks",
+    image: "/assets/dwh-course.png",
+    description: "Adopt the ELT paradigm using dbt to transform raw data into production-ready models with software engineering practices.",
+    outcome: "Students will build modular, tested, and documented data models using dbt, applying version control and CI for reliable deployments.",
+    keySkill: "Building modular data models with Jinja and macros to maintain a single source of truth across the Medallion architecture.",
+    professionalStatement: "Produce production-ready, tested data models using dbt.",
+    rating: 4.7,
+    ratingCount: "210"
+  },
+  {
+    slug: "docker-for-data-engineers",
+    title: "Docker for Data Engineers",
+    level: "Intermediate",
+    category: "Infrastructure",
+    duration: "2 weeks",
+    image: "/assets/2.png",
+    description: "Containerize data applications to achieve reproducible environments and portable deployments.",
+    outcome: "Students will containerize data stacks and orchestrate multi-container setups to ensure consistency across environments.",
+    keySkill: "Using Docker Compose to orchestrate Spark, databases, and custom Python services in isolated environments.",
+    professionalStatement: "Deliver portable, reproducible data applications using containers.",
+    rating: 4.6,
+    ratingCount: "180"
+  },
+  {
+    slug: "infrastructure-as-code-terraform",
+    title: "Infrastructure as Code (Terraform)",
+    level: "Intermediate",
+    category: "Cloud",
+    duration: "2.5 weeks",
+    image: "/assets/3.png",
+    description: "Provision cloud data platforms programmatically using Terraform modules and best practices.",
+    outcome: "Students will define data lakes, warehouses, and IAM as version-controlled code to enable auditable, repeatable deployments.",
+    keySkill: "Managing cloud state and modular infrastructure to deploy scalable data architectures quickly.",
+    professionalStatement: "Provision production-grade cloud resources using Terraform modules.",
+    rating: 4.7,
+    ratingCount: "140"
+  },
+  {
+    slug: "ci-cd-data-platforms",
+    title: "CI/CD for Data Platforms",
+    level: "Intermediate",
+    category: "DevOps",
+    duration: "2 weeks",
+    image: "/assets/ci-cd-course.png",
+    description: "Automate testing and deployment of data platform components using GitHub Actions and similar tooling.",
+    outcome: "Students will implement automated pipelines that validate data quality and deploy changes safely to production.",
+    keySkill: "Implementing GitHub Actions and automated workflows to trigger tests, data quality checks, and deployments.",
+    professionalStatement: "Automate deployment pipelines for data engineering projects.",
+    rating: 4.6,
+    ratingCount: "130"
+  },
+  {
+    slug: "airflow-data-orchestration",
+    title: "Data Orchestration (Airflow)",
+    level: "Intermediate",
+    category: "Orchestration",
+    duration: "3 weeks",
+    image: "/assets/hero-main.png",
+    description: "Design and operate resilient data pipelines using Apache Airflow, advanced DAG patterns, and custom operators.",
+    outcome: "Students will architect complex, fault-tolerant pipelines with programmatic scheduling and advanced failure handling.",
+    keySkill: "Designing advanced DAGs and custom operators to integrate Spark jobs, dbt models, and cloud services.",
+    professionalStatement: "Build production-grade orchestrations for large-scale data workloads.",
+    rating: 4.7,
+    ratingCount: "150"
+  },
+  {
+    slug: "capstone-project",
+    title: "Capstone Project",
+    level: "Intermediate",
+    category: "Project",
+    duration: "4 weeks",
+    image: "/assets/databases-course.png",
+    description: "A guided, hands-on project that brings together all intermediate skills into a production-ready pipeline.",
+    outcome: "Students will design, implement, and deploy an end-to-end data pipeline incorporating SQL tuning, dbt models, containerized services, IaC, CI/CD, and orchestration.",
+    keySkill: "Applying integrated platform skills to deliver a production-grade data solution from ingestion to serving.",
+    professionalStatement: "Deliver a complete, production-ready data engineering project.",
+    rating: 4.9,
+    ratingCount: "95"
   }
 ];
