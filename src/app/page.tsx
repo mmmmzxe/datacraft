@@ -20,17 +20,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      <Header />
-      <HeroSection />
-       <ProfileShowcase />
-      <AboutSection />
      
-      <SkillsSection />
-      <FeaturedSection />
-      <InstructorsSection />
-         <BlogPreviewSection />
-      <CourseReviewsSection />
-      <Footer />
     </main>
   );
 }
