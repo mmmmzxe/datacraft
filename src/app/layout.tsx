@@ -144,7 +144,8 @@ export default function RootLayout({
       "Covers all the essential foundations and tools used by real-world data engineers. SQL, Python, data modeling, and introductory ETL pipelines.",
     provider: { "@id": `${siteUrl}/#organization` },
     educationalLevel: "Beginner",
-    coursePrerequisites: "None — designed for students, fresh graduates, and career shifters",
+    coursePrerequisites:
+      "None — designed for students, fresh graduates, and career shifters",
     hasCourseInstance: {
       "@type": "CourseInstance",
       courseMode: "blended",
@@ -173,7 +174,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-     
+        {children}
       </body>
     </html>
   );
